@@ -1,1 +1,0 @@
-# SQLServer_learning
