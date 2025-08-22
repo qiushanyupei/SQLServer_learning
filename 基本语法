@@ -1,4 +1,5 @@
 use 数据库名：进入这个数据库的环境，后面的操作如建表都在这个数据库里
 GO是客户端工具（SSMS等）的批处理分隔符，即前面的先执行完再执行后面的语句
 删除数据库、表：drop database xxx；drop table xxx
-条件判断：if db_id('ZhaoXiEdu') is not null
+常见的有用条件判断：if db_id('ZhaoXiEdu') is not null
+
