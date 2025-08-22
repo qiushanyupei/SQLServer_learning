@@ -6,6 +6,7 @@
 3、建表时默认的schema是dbo(database owner，但和数据库角色的同名称呼不同)，schema可以理解为命名空间，可以用来分割项目，不同的schema下可以有相同的表名
 建表语法：
 注意点：create里面每一行：列名+数据类型,IDENTITY(1,1) 就是让某列从 1 开始，每次加 1，自动编号，省心省力;NOT NULL表示不能为空，反之反一下
+	   primary是保留关键字，表示文件组，是 SQL Server 存储表和索引的物理分区方式，所以外面要加方括号，不过on primary这句可以不加，脚本执行时默认会加上
 use test
 go
 create table dbo.test_score(
